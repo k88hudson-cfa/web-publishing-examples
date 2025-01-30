@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ location }}: Rt estimates</title>
+</head>
+<body>
+    <h1>{{ location }}: <em>R<sub>t</sub></em> estimates</h1>
+    <ul>
+        {% for record in records %}
+            <li>Date: {{ record.date }}, Median: {{ record.median }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

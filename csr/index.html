@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rt Estimates</title>
+  </head>
+  <body>
+    <h1>Rt estimates for <span id="location"></span></h1>
+    <select id="location-selector"></select>
+    <ul id="list"></ul>
+
+    <template id="list-item-template">
+      <li><span class="date"></span>: <strong class="median"></strong></li>
+    </template>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
